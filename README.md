@@ -36,8 +36,7 @@ Built with DevOps best practices in mind — no more writing dull commit message
 1. Clone the repo:
 
 ```bash
-git clone https://github.com/Nombulelo-Khumalo/DevOps-Revision/tree/main/ai-commit-bot
-cd DevOps-Revision
+git clone https://github.com/Nombulelo-Khumalo/ai-commit-bot.git
 cd ai-commit-bot
 ````
 
