@@ -7,6 +7,8 @@ on:
     paths-ignore:
       - 'README.md'
       - 'log.txt'
+  pull_request:
+    types: [opened, synchronize]
 
 jobs:
   generate-commit:
