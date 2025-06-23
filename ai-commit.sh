@@ -8,8 +8,8 @@ fi
 
 
 if git diff --cached --quiet; then
-	echo "No staged files found. Please run 'git add <filename>'"
-	exit 1
+	echo "No staged files found. Please run 'git add <filename> - skipping commit generation'"
+	exit 0
 else 
 	echo "Stages file detected. Proceeding...."
 fi
